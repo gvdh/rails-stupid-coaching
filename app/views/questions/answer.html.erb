@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="alert alert-success" role="alert" id="question">
+    <p> Your question : <%= @question %> </p>
+  </div>
+  <div id="answer">
+    <p> The answer of our coach : </p>
+    <%= @answer %>
+  </div>
+</div>
+<%= link_to 'Ask another question', ask_path, class: "btn btn-primary", id: "ask" %></button>

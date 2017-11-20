@@ -1,0 +1,30 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction:column;
+  justify-content:center;
+}
+
+#answer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding-top: 20px;
+  width: 40%;
+  height: 80px;
+  line-height: 10px;
+  background-color: #235789;
+  color: #FDFFFC;
+}
+
+#question {
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ask {
+  position:absolute;
+  right:10%;
+}
